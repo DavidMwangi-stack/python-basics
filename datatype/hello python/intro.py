@@ -9,19 +9,19 @@
  #   print("you are a child")
 
 # for Loop
-for q in range (5):
-   print(f"q is {q}")
+# for q in range (5):
+#    print(f"q is {q}")
     
 #while loop
-#count = 0
-#while count < 5:
- #   print(f"count is {count}")
-  #  count += 1
+# count = 0
+# while count < 5:
+#    print(f"count is successful {count}")
+#    count += 1
 
-#functions 
-#def greet (name):
- #   return f"Hello, {name}!"
-#print(greet("David"))
+#functions  are reusable block of codes to perform a task
+# def greet (name):
+#    return f"Hello, {name}!"
+# print(greet("David"))
 
 #def add(a, b):
  #   return a + b
@@ -34,9 +34,9 @@ for q in range (5):
 
 #import a specific function in a math
 # from math import sqrt 
-# use the imported function 
+# # use the imported function 
 # result = sqrt(16)
-# print(result)
+# print(f'The square root of 16 is {result}')
 
 # using the sys module to access command line arguments
 # import sys
@@ -62,7 +62,7 @@ for q in range (5):
 # print(df)
 
 #simple plot using Matplotlib
-# import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt  Inbuilt module
 # x = [1,2,3,4,5]
 # y = [2,3,5,7,11]
 # plt.plot(x,y)
@@ -70,3 +70,8 @@ for q in range (5):
 # plt.ylabel('y axis')
 # plt.title('Simple Plot')
 # plt.show()
+
+
+# customized module
+import greet_module
+print(greet_module.greet("David"))
