@@ -9,8 +9,8 @@
  #   print("you are a child")
 
 # for Loop
-for q in range (5):
-   print(f"q is {q}")
+# for q in range (5):
+#    print(f"q is {q}")
     
 #while loop
 #count = 0
@@ -70,3 +70,12 @@ for q in range (5):
 # plt.ylabel('y axis')
 # plt.title('Simple Plot')
 # plt.show()
+
+languages = ['Python', 'Java', 'C++', 'French', 'C']
+# access item at index 1
+print(languages[1])
+
+print(languages[1:3])   
+
+letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g']
+print(letters[0])
