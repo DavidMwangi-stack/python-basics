@@ -10,4 +10,5 @@ print("data type;",type(new_number))
 
 # Control flow
 speed = 80
-if 
+if speed > 60:
+    print("overspeeding")
